@@ -1,7 +1,9 @@
 const hobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
-    return [hobbyOne, hobbyTwo, hobbyThree]
+    const array = [hobbyOne, hobbyTwo, hobbyThree]
+    
+    return array
 }
 
-console.log(hobbies('lettura', 'scacchi', 'giochi da tavolo'))
+// console.log(hobbies('lettura', 'scacchi', 'giochi da tavolo'))
 
-module.exports = hobbies
+module.exports = hobbies('lettura', 'scacchi', 'giochi da tavolo')

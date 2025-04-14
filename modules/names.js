@@ -1,7 +1,12 @@
 const fullName = (firstName, lastName) => {
-    return {firstName, lastName}
+    const nome = {
+        firstName,
+        lastName
+    }
+
+    return nome
 }
 
-console.log(fullName("marco", 'preti'))
+// console.log(fullName("marco", 'preti'))
 
-module.exports = fullName
+module.exports = fullName('Marco', 'Preti')
